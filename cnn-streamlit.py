@@ -17,7 +17,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 @st.cache(allow_output_mutation=True,suppress_st_warning=True)
 def load_cnn1():
-    model_ = load_model('D:/Bootcamp ML - Mada/BC-1/weights3.h5')
+    model_ = load_model('D:/Bootcamp ML - Mada/BC-1/weights1.h5')
     return model_
 
 @st.cache(allow_output_mutation=True,suppress_st_warning=True)
