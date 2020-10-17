@@ -4,7 +4,7 @@ Visualize CNN Classification of Malaria-infected Cells using Streamlit
 ## Read the Documentation [Here](https://nazillymada.github.io/Classification-of-Malaria-infected-Cells/)
 
 ### Running Visualization Using Streamlit on your local environment
-**1. Install Streamlit first**
+**1. Install Streamlit **
 ```
 py -m pip install streamlit
 ```
@@ -36,6 +36,7 @@ def load_cnn2():
 ```
 
 **4. Run the script**
+
 Run this script in terminal/command prompt
 ```
 streamlit run cnn-streamlit.py
